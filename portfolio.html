@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="icon" type="image/png" sizes="194x194" href="images/favicon.png"/>
+    <title>IT | Web Design&Development and Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="javascript" src="js/menubar.js"></script>
+    
+</head>
+
+    
+<body class="parallax-scrolling" id="home">
+
+    <div class="navbar">
+    <div class="logo">
+    <a href="homepage.html" id="logo"><img src="images/logo.png" style="width:88px;height: 73px;"></a>
+</div>
+    
+<a class="btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</a>
+    
+<div class="menu">
+  <a href="homepage.html">Home</a>
+  <a href="homepage.html">Services</a>
+  <a href="portfolio.html" class="active">Portfolio</a>
+  <a href="#contact" class="cont">Contact</a>
+</div>
+    
+</div>
+<div class="header">
+
+</div>
+<script type="text/javascript">
+
+$(".btn").on("click",function(){
+  $('.menu').toggleClass("show");
+});
+
+
+</script>
+    
+    <div class="parallax-scrolling" style="margin-top: 8%;">
+ 
+        
+        </div>
+
+        
+        <!-- Portfolio Section here -->
+        <div class="portfolio" id="portfolio">
+            <br>
+            <h5><i class="fa fa-folder-open-o" style="font-size:33px"></i> PORTFOLIO</h5>
+            
+            <p class="port">Some information about portfolio...</p>
+            
+            <br>
+           
+            
+        </div> <!-- Portfolio Section Ends here -->
+        
+    <br>    
+    <br>    
+    <br>
+    
+     <!-- Contact Section here -->
+        <div class="contact" id="contact">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h6><i class="fa fa-comments" style="font-size:36px"></i> CONTACT:</h6>
+            
+            <form id="contact-form" method="post" action="sendmessage.php">
+                <input name="name" type="text" class="cform" placeholder= " Your Full Name" required>
+                <br>
+                <br>
+                <input name="email" type="email" class="cform" placeholder="Your Email Address" required>
+                <br>
+                <br>
+                <textarea name="message" class="cform" placeholder="Enter your message..." rows="4" required></textarea>
+                <br>
+                <br>
+                
+                <input type="submit" class="cform" id="send" value="Send Message">
+            </form>
+            
+        </div>
+    
+    <br>
+</body>
+
+</html>

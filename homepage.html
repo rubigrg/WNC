@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="icon" type="image/png" sizes="194x194" href="images/favicon.png"/>
+    <title>IT | Web Design&Development and Cyber Security</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="javascript" src="js/menubar.js"></script>
+    
+</head>
+
+    
+<body class="parallax-scrolling" id="home">
+
+    <div class="navbar">
+    <div class="logo">
+    <a href="homepage.html" id="logo"><img src="images/logo.png" style="width:88px;height: 73px;"></a>
+</div>
+    
+<a class="btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</a>
+    
+<div class="menu">
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="#contact" class="cont">Contact</a>
+</div>
+    
+</div>
+<div class="header">
+
+</div>
+<script type="text/javascript">
+
+$(".btn").on("click",function(){
+  $('.menu').toggleClass("show");
+});
+
+
+</script>
+    
+    <div class="parallax-scrolling" style="margin-top: 8%;">
+            <h1>Welcome to WCS</h1>
+        
+        <br>
+        <br>
+        <br>
+        
+        <header>
+           <div>
+               <p><span class="abt-us">A little about us...</span> Information about the business here....</p>
+           </div> 
+           
+        </header>
+        
+       
+        <br>
+        <br>
+        
+         <h3>Meet The Team:</h3>
+        
+       <div class="roww">
+          <div class="columnn">
+            <div class="card">
+              <img src="images/placeholder.png">
+              <div class="container">
+                <h2>Sakshi Tandon</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="columnn">
+            <div class="card">
+              <img src="images/placeholder.png">
+              <div class="container">
+                <h2>Rubi Gurung</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              </div>
+            </div>
+          </div>
+</div>
+
+        
+        </div>
+        
+        <!-- Services Section here -->
+    
+    <div class="services" id="services">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4><i class="fa fa-database" style="font-size:33px"></i> SERVICES</h4>
+        
+        <p class="serv">
+            Some information about services here.....
+        </p>
+        
+        <br>
+        <br>
+        
+        <div class="row1">
+          <div class="column1" id="col1" style="background-color:#aaa;">
+              <br>
+            <a href="services.html" target="_blank" class="more-info">Web Design and Development</a>
+          </div>
+          <div class="column1" id="col2" style="background-color:#bbb;" >
+              <br>
+            <a href="cybersecurity.html" target="_blank" class="more-info">Cyber Security</a>
+            <p>Some text..</p>
+          </div>
+          <div class="column1" id="col3" style="background-color:#ccc;">
+            <p class="networking">
+                NETWORKING
+                
+                <br>
+                <br>
+                
+                COMING SOON
+                
+            </p>
+          </div>
+</div>
+        
+    </div> <!-- Services Section Ends here -->
+        
+        
+        <br>
+        <br>
+        
+        <!-- Contact Section here -->
+        <div class="contact" id="contact">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h6><i class="fa fa-comments" style="font-size:36px"></i> CONTACT:</h6>
+            
+            <form id="contact-form" method="post" action="sendmessage.php">
+                <input name="name" type="text" class="cform" placeholder= " Your Full Name" required>
+                <br>
+                <br>
+                <input name="email" type="email" class="cform" placeholder="Your Email Address" required>
+                <br>
+                <br>
+                <textarea name="message" class="cform" placeholder="Enter your message..." rows="4" required></textarea>
+                <br>
+                <br>
+                
+                <input type="submit" class="cform" id="send" value="Send Message">
+            </form>
+            
+        </div>
+        
+    <br>
+</body>
+
+</html>
